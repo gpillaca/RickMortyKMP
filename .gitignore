@@ -1,6 +1,23 @@
+# System Files
+.DS_Store
+Thumbs.db
+
+# Temporary
+/tmp/
+*.tmp
+*.log
+
+# Build & Gradle
 build
-*.iml
+**/build/
 .gradle
+
+# Kotlin compiler cache and metadata
+.kotlin/
+*.klib
+
+# Android
+# IDE
 .idea
 .idea/*
 !.idea/runConfigurations
@@ -8,16 +25,25 @@ build
 !.idea/vcs.xml
 !.idea/dictionaries
 !.idea/dictionaries/*
-.DS_Store
-**/build/
-captures
-.externalNativeBuild
-.cxx
+*.iml
 local.properties
+.idea/
+
+# Build outputs
+*.apk
+*.aab
+captures/
+.externalNativeBuild/
+.cxx/
+
+# iOS & Xcode
 xcuserdata
+**/xcuserdata/
 
-/tmp/
-
-# Kotlin compiler cache and metadata
-.kotlin/
-*.klib
+DerivedData
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
+**/xcshareddata/WorkspaceSettings.xcsettings
