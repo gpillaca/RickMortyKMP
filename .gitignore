@@ -1,0 +1,23 @@
+build
+*.iml
+.gradle
+.idea
+.idea/*
+!.idea/runConfigurations
+!.idea/runConfigurations/*
+!.idea/vcs.xml
+!.idea/dictionaries
+!.idea/dictionaries/*
+.DS_Store
+**/build/
+captures
+.externalNativeBuild
+.cxx
+local.properties
+xcuserdata
+
+/tmp/
+
+# Kotlin compiler cache and metadata
+.kotlin/
+*.klib
